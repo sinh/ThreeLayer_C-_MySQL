@@ -1,0 +1,18 @@
+/Users/sinhnx/Google Drive/course-materials/Dev2018/Programming Fundamentals/07. Working with RDBMS/demos/Connect DB/OMS/Persistence/bin/Debug/netstandard2.0/Persistence.deps.json
+/Users/sinhnx/Google Drive/course-materials/Dev2018/Programming Fundamentals/07. Working with RDBMS/demos/Connect DB/OMS/Persistence/bin/Debug/netstandard2.0/Persistence.dll
+/Users/sinhnx/Google Drive/course-materials/Dev2018/Programming Fundamentals/07. Working with RDBMS/demos/Connect DB/OMS/Persistence/bin/Debug/netstandard2.0/Persistence.pdb
+/Users/sinhnx/Google Drive/course-materials/Dev2018/Programming Fundamentals/07. Working with RDBMS/demos/Connect DB/OMS/Persistence/obj/Debug/netstandard2.0/Persistence.csproj.CoreCompileInputs.cache
+/Users/sinhnx/Google Drive/course-materials/Dev2018/Programming Fundamentals/07. Working with RDBMS/demos/Connect DB/OMS/Persistence/obj/Debug/netstandard2.0/Persistence.AssemblyInfoInputs.cache
+/Users/sinhnx/Google Drive/course-materials/Dev2018/Programming Fundamentals/07. Working with RDBMS/demos/Connect DB/OMS/Persistence/obj/Debug/netstandard2.0/Persistence.AssemblyInfo.cs
+/Users/sinhnx/Google Drive/course-materials/Dev2018/Programming Fundamentals/07. Working with RDBMS/demos/Connect DB/OMS/Persistence/obj/Debug/netstandard2.0/Persistence.dll
+/Users/sinhnx/Google Drive/course-materials/Dev2018/Programming Fundamentals/07. Working with RDBMS/demos/Connect DB/OMS/Persistence/obj/Debug/netstandard2.0/Persistence.pdb
+/Users/sinhnx/Google Drive/course-materials/Dev2018/Programming Fundamentals/07. Working with RDBMS/demos/Connect DB/OMS/Persistence/obj/Debug/netstandard2.0/Persistence.csprojResolveAssemblyReference.cache
+/Users/sinhnx/Desktop/Sinh-GitHub/ThreeLayer_CShap_MySQL/Persistence/bin/Debug/netstandard2.0/Persistence.deps.json
+/Users/sinhnx/Desktop/Sinh-GitHub/ThreeLayer_CShap_MySQL/Persistence/bin/Debug/netstandard2.0/Persistence.dll
+/Users/sinhnx/Desktop/Sinh-GitHub/ThreeLayer_CShap_MySQL/Persistence/bin/Debug/netstandard2.0/Persistence.pdb
+/Users/sinhnx/Desktop/Sinh-GitHub/ThreeLayer_CShap_MySQL/Persistence/obj/Debug/netstandard2.0/Persistence.csprojResolveAssemblyReference.cache
+/Users/sinhnx/Desktop/Sinh-GitHub/ThreeLayer_CShap_MySQL/Persistence/obj/Debug/netstandard2.0/Persistence.csproj.CoreCompileInputs.cache
+/Users/sinhnx/Desktop/Sinh-GitHub/ThreeLayer_CShap_MySQL/Persistence/obj/Debug/netstandard2.0/Persistence.AssemblyInfoInputs.cache
+/Users/sinhnx/Desktop/Sinh-GitHub/ThreeLayer_CShap_MySQL/Persistence/obj/Debug/netstandard2.0/Persistence.AssemblyInfo.cs
+/Users/sinhnx/Desktop/Sinh-GitHub/ThreeLayer_CShap_MySQL/Persistence/obj/Debug/netstandard2.0/Persistence.dll
+/Users/sinhnx/Desktop/Sinh-GitHub/ThreeLayer_CShap_MySQL/Persistence/obj/Debug/netstandard2.0/Persistence.pdb
