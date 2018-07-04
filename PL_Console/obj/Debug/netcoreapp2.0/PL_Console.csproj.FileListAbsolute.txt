@@ -32,3 +32,4 @@
 /Users/sinhnx/Desktop/Sinh-GitHub/ThreeLayer_CShap_MySQL/PL_Console/obj/Debug/netcoreapp2.0/PL_Console.AssemblyInfo.cs
 /Users/sinhnx/Desktop/Sinh-GitHub/ThreeLayer_CShap_MySQL/PL_Console/obj/Debug/netcoreapp2.0/PL_Console.dll
 /Users/sinhnx/Desktop/Sinh-GitHub/ThreeLayer_CShap_MySQL/PL_Console/obj/Debug/netcoreapp2.0/PL_Console.pdb
+/Users/sinhnx/Desktop/Sinh-GitHub/ThreeLayer_CShap_MySQL/PL_Console/bin/Debug/netcoreapp2.0/ConnectionString.txt

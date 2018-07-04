@@ -17,4 +17,8 @@
     <ProjectReference Include="..\BL\BL.csproj" />
   </ItemGroup>
 
+  <Target Name="CopyConnectionString" AfterTargets="AfterBuild">
+    <Copy SourceFiles="./bin/Debug/netcoreapp2.0/ConnectionString.txt" DestinationFolder="./" />
+  </Target>
+
 </Project>

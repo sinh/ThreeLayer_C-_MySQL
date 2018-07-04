@@ -20,3 +20,4 @@
 /Users/sinhnx/Desktop/Sinh-GitHub/ThreeLayer_CShap_MySQL/DAL/obj/Debug/netstandard2.0/DAL.AssemblyInfo.cs
 /Users/sinhnx/Desktop/Sinh-GitHub/ThreeLayer_CShap_MySQL/DAL/obj/Debug/netstandard2.0/DAL.dll
 /Users/sinhnx/Desktop/Sinh-GitHub/ThreeLayer_CShap_MySQL/DAL/obj/Debug/netstandard2.0/DAL.pdb
+/Users/sinhnx/Desktop/Sinh-GitHub/ThreeLayer_CShap_MySQL/DAL/bin/Debug/netstandard2.0/ConnectionString.txt

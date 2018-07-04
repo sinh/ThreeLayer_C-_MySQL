@@ -7,10 +7,10 @@ namespace BL
 {
     public class ItemBL
     {
-        private ItemDAL idal;
+        private ItemsDAL idal;
         public ItemBL()
         {
-            idal = new ItemDAL();
+            idal = new ItemsDAL();
         }
         public Item GetItemById(int itemId)
         {

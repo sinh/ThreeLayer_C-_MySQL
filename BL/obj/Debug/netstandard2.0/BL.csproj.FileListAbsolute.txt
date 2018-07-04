@@ -22,3 +22,4 @@
 /Users/sinhnx/Desktop/Sinh-GitHub/ThreeLayer_CShap_MySQL/BL/obj/Debug/netstandard2.0/BL.AssemblyInfo.cs
 /Users/sinhnx/Desktop/Sinh-GitHub/ThreeLayer_CShap_MySQL/BL/obj/Debug/netstandard2.0/BL.dll
 /Users/sinhnx/Desktop/Sinh-GitHub/ThreeLayer_CShap_MySQL/BL/obj/Debug/netstandard2.0/BL.pdb
+/Users/sinhnx/Desktop/Sinh-GitHub/ThreeLayer_CShap_MySQL/BL/bin/Debug/netstandard2.0/ConnectionString.txt
