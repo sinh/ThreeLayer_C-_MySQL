@@ -31,12 +31,7 @@ namespace DAL
                 {
                     connectionString = reader.ReadLine();
                 }
-                MySqlConnection connection = new MySqlConnection
-                {
-                    ConnectionString = connectionString
-                };
-                connection.Open();
-                return connection;
+                return OpenConnection(connectionString);
             }catch{
                 return null;
             }
