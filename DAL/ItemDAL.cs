@@ -47,6 +47,7 @@ namespace DAL
             {
                 lstItem.Add(GetItem(reader));
             }
+            reader.Close();
             DBHelper.CloseConnection();
             return lstItem;
         }
