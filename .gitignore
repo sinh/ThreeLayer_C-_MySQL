@@ -38,3 +38,5 @@ msbuild.wrn
 # Build files
 [iI]con
 *.[iI]con
+*.dll
+*.pdb
