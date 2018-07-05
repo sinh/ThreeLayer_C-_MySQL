@@ -36,7 +36,5 @@ msbuild.wrn
 .vs/
 
 # Build files
-*.dll
-*.pdb
-icon
-*.icon
+[iI]con
+*.[iI]con
