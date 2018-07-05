@@ -39,3 +39,4 @@ msbuild.wrn
 *.dll
 *.pdb
 icon
+*.icon
