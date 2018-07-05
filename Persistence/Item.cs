@@ -14,5 +14,16 @@ namespace Persistence
         public int? Amount {set;get;}
         public int? Status{set;get;}
         public string Description {set;get;}
+
+        public override bool Equals(object obj){
+            if(obj is Item){
+                return ((Item)obj).ItemId.Equals(ItemId);
+            }
+            return false;
+        }
+
+        public override int GetHashCode(){
+            return ItemId.GetHashCode();
+        }
     }
 }
