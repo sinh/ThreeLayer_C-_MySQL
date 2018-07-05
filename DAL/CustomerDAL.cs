@@ -24,6 +24,7 @@ namespace DAL
             {
                 c = GetCustomer(reader);
             }
+            reader.Close();
             connection.Close();
             return c;
         }
