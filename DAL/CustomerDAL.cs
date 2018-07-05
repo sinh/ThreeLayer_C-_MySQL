@@ -73,7 +73,6 @@ namespace DAL
             }
             catch
             {
-                return null;
             }
             finally
             {
