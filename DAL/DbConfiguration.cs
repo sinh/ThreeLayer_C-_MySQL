@@ -8,6 +8,7 @@ namespace DAL
     public class DbConfiguration
     {
         private static string CONNECTION_STRING = "server=localhost;user id=vtca;password=vtcacademy;port=3306;database=OrderDB;SslMode=None";
+        private static string conString = null;
         public static MySqlConnection OpenDefaultConnection()
         {
             try{
@@ -25,13 +26,14 @@ namespace DAL
         public static MySqlConnection OpenConnection()
         {
             try{
-                string connectionString;
-                FileStream fileStream = new FileStream("ConnectionString.txt", FileMode.Open);
-                using (StreamReader reader = new StreamReader(fileStream))
-                {
-                    connectionString = reader.ReadLine();
+                if(conString == null){
+                    FileStream fileStream = new FileStream("ConnectionString.txt", FileMode.Open);
+                    using (StreamReader reader = new StreamReader(fileStream))
+                    {
+                        conString = reader.ReadLine();
+                    }
                 }
-                return OpenConnection(connectionString);
+                return OpenConnection(conString);
             }catch{
                 return null;
             }
