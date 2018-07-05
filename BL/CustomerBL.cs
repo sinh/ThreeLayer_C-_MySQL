@@ -15,7 +15,7 @@ namespace BL
 
         public int AddCustomer(Customer customer)
         {
-            return cdal.AddCustomer(customer);
+            return cdal.AddCustomer(customer) ?? 0;
         }
     }
 }

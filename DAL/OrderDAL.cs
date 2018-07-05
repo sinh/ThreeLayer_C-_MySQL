@@ -14,7 +14,7 @@ namespace DAL
                 return false;
             }
             bool result = true;
-            MySqlConnection connection = DBHelper.OpenConnection();
+            MySqlConnection connection = DbConfiguration.OpenConnection();
             MySqlCommand cmd = connection.CreateCommand();
             cmd.Connection = connection;
             //Lock update all tables

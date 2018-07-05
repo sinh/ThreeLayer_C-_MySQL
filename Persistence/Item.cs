@@ -6,6 +6,7 @@ namespace Persistence
         public const int NOT_ACTIVE = 0;
         public const int ACTIVE = 1;
     }
+    
     public class Item
     {
         public int? ItemId {set;get;}

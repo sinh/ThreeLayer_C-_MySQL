@@ -6104,6 +6104,7 @@
       "Microsoft.NET.Test.Sdk >= 15.5.0",
       "Microsoft.NETCore.App >= 2.0.0",
       "MySql.Data >= 8.0.11",
+      "Persistence >= 1.0.0",
       "xunit >= 2.3.1",
       "xunit.runner.visualstudio >= 2.3.1"
     ]
@@ -6138,6 +6139,9 @@
           "projectReferences": {
             "/Users/sinhnx/Desktop/Sinh-GitHub/ThreeLayer_CShap_MySQL/DAL/DAL.csproj": {
               "projectPath": "/Users/sinhnx/Desktop/Sinh-GitHub/ThreeLayer_CShap_MySQL/DAL/DAL.csproj"
+            },
+            "/Users/sinhnx/Desktop/Sinh-GitHub/ThreeLayer_CShap_MySQL/Persistence/Persistence.csproj": {
+              "projectPath": "/Users/sinhnx/Desktop/Sinh-GitHub/ThreeLayer_CShap_MySQL/Persistence/Persistence.csproj"
             }
           }
         }

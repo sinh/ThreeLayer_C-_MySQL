@@ -8,20 +8,23 @@ namespace DAL
     public class CustomerDAL
     {
         private string query;
+        private MySqlConnection connection = DbConfiguration.OpenConnection();
         private MySqlDataReader reader;
         public Customer GetById(int customerId)
         {
+            if(connection.State == System.Data.ConnectionState.Closed){
+                connection.Open();
+            }
             query = @"select customer_id, customer_name,
                         ifnull(customer_address, '') as customer_address
                         from Customers where customer_id=" + customerId + ";";
-            DBHelper.OpenConnection();
-            reader = DBHelper.ExecQuery(query);
+            reader = (new MySqlCommand(query, connection)).ExecuteReader();
             Customer c = null;
             if (reader.Read())
             {
                 c = GetCustomer(reader);
             }
-            DBHelper.CloseConnection();
+            connection.Close();
             return c;
         }
 
@@ -48,10 +51,13 @@ namespace DAL
             return c;
         }
 
-        public int AddCustomer(Customer c)
+        public int? AddCustomer(Customer c)
         {
-            int result = 0;
-            MySqlCommand cmd = new MySqlCommand("sp_createCustomer", DBHelper.OpenConnection());
+            int? result = null;
+            if(connection.State == System.Data.ConnectionState.Closed){
+                connection.Open();
+            }
+            MySqlCommand cmd = new MySqlCommand("sp_createCustomer", connection);
             try
             {
                 cmd.CommandType = System.Data.CommandType.StoredProcedure;
@@ -66,11 +72,11 @@ namespace DAL
             }
             catch
             {
-
+                return null;
             }
             finally
             {
-                DBHelper.CloseConnection();
+                connection.Close();
             }
             return result;
         }
