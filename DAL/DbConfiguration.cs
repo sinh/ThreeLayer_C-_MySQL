@@ -27,7 +27,7 @@ namespace DAL
         {
             try{
                 if(conString == null){
-                    using(FileStream fileStream = new FileStream("ConnectionString.txt", FileMode.Open))
+                    using (FileStream fileStream = File.OpenRead("ConnectionString.txt"))
                     {
                         using (StreamReader reader = new StreamReader(fileStream))
                         {
