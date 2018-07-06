@@ -27,12 +27,13 @@ namespace DAL
         {
             try{
                 if(conString == null){
-                    FileStream fileStream = new FileStream("ConnectionString.txt", FileMode.Open);
-                    using (StreamReader reader = new StreamReader(fileStream))
+                    using(FileStream fileStream = new FileStream("ConnectionString.txt", FileMode.Open))
                     {
-                        conString = reader.ReadLine();
+                        using (StreamReader reader = new StreamReader(fileStream))
+                        {
+                            conString = reader.ReadLine();
+                        }
                     }
-                    fileStream.Close();
                 }
                 return OpenConnection(conString);
             }catch{
