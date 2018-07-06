@@ -40,3 +40,4 @@ msbuild.wrn
 *.[iI]con
 *.dll
 *.pdb
+*.cache
