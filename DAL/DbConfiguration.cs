@@ -32,6 +32,7 @@ namespace DAL
                     {
                         conString = reader.ReadLine();
                     }
+                    fileStream.Close();
                 }
                 return OpenConnection(conString);
             }catch{
